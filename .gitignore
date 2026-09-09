@@ -1,0 +1,27 @@
+# Never commit any of these
+
+# Key material
+*.pem
+*.ppk
+*.key
+id_rsa*
+
+# Backup artefacts and database dumps
+*.tar.gz
+*.sql
+*.sql.gz
+
+# Real WordPress configuration (only the redacted snippet is tracked)
+wp-config.php
+
+# Local environment
+.env
+*.env
+credentials
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
